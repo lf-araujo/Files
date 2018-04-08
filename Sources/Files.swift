@@ -1021,7 +1021,7 @@ private extension FileManager {
             return nil
         }
 
-        if objCBool.boolValue {
+        if objCBool {
             return .folder
         }
         
